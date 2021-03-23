@@ -83,6 +83,7 @@ h1{
 #content-box {
   background: #eb4034;
   font-family: nirv;
+  font-size: 25px;
   border: 20px solid black;
   border-radius: 25px;
   padding: 15px;

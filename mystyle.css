@@ -1,0 +1,145 @@
+Head {}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: black;
+  padding: 200px 0;
+  background: repeating-radial-gradient(
+  circle,
+  green,
+  green 10px,
+  yellow 10px,
+  yellow 20px
+);
+  margin-top: -200px;
+}
+h1{
+  font-family: cramps;
+}
+#slider {
+  justify-content: center;
+	overflow: hidden;
+  border: 20px solid black;
+  border-radius: 25px;
+  padding: 0px;
+  margin-bottom: 15px;
+  height: 350px;
+}
+#slider figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left 0;
+  animation: 20s slider infinite;
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+  justify-content: center;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+
+#container {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: cramps;
+  top: 100px;
+  width: 600px;
+  justify-content: center;
+}
+
+#content-box {
+  background: #eb4034;
+  font-family: nirv;
+  border: 20px solid black;
+  border-radius: 25px;
+  padding: 15px;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+#content-box img {
+  display: block;
+  margin-left: auto;
+  border-radius: 25px;
+  border: 10px solid black;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#hero-image{
+  display: flex;
+  justify-content: center;
+}
+
+#content-box audio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+ul {
+  position: relative;
+  list-style-type: none;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: cramps;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 12px;
+  color: black;
+}
+
+a:hover {
+  background: orange;
+  color: red;
+}
+
+@font-face {
+  font-family: cramps;
+  src: url(cramps.ttf);
+}
+@font-face {
+  font-family: Nirv;
+  src: url(nirv.TTF);
+}
